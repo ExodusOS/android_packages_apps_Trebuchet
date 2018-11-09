@@ -125,6 +125,7 @@ public final class Utilities {
     private static final long WAIT_BEFORE_RESTART = 250;
 
     public static final String KEY_DOCK_SEARCH = "pref_dock_search";
+    public static final String SEARCH_PACKAGE = "com.google.android.googlequicksearchbox";
 
     public static final String SLEEP_GESTURE = "pref_sleep_gesture";
     public static final String ICON_SIZE = "pref_custom_icon_size";
