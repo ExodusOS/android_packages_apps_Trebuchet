@@ -124,6 +124,8 @@ public final class Utilities {
 
     private static final long WAIT_BEFORE_RESTART = 250;
 
+    public static final String KEY_DOCK_SEARCH = "pref_dock_search";
+
     public static final String SLEEP_GESTURE = "pref_sleep_gesture";
     public static final String ICON_SIZE = "pref_custom_icon_size";
     public static final String FONT_SIZE = "pref_custom_font_size";
@@ -704,6 +706,19 @@ public final class Utilities {
     public static boolean isWorkspaceEditAllowed(Context context) {
         SharedPreferences prefs = getPrefs(context.getApplicationContext());
         return prefs.getBoolean(InvariantDeviceProfile.KEY_WORKSPACE_EDIT, true);
+    }
+
+    public static boolean showQSB(Context context, Launcher launcher) {
+        LauncherAppState appState = LauncherAppState.getInstance(launcher);
+        if (!appState.isSearchAppAvailable()) {
+            return false;
+        }
+        return isQSBEnabled(context);
+    }
+
+    public static boolean isQSBEnabled(Context context) {
+        SharedPreferences prefs = getPrefs(context.getApplicationContext());
+        return prefs.getBoolean(KEY_DOCK_SEARCH, true);
     }
 
     public static boolean useSleepGesture(Context context) {
