@@ -35,4 +35,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <!-- DT2S -->
     <string name="pref_sleep_gesture_title">Double tap to sleep</string>
     <string name="pref_sleep_gesture_summary">Double tap on empty space for power-off</string>
+	
+	<!-- Recents screen, close app -->
+    <string name="recents_close_app">Close app</string>
 </resources>
