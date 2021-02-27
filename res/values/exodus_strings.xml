@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--  Copyright (C) 2020-2021 crDroid Android Project
-
+      Copyright (C) 2022 Exodus OS Project
+	  
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
@@ -44,4 +45,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="custom_seekbar_default_value">by default</string>
     <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong tap to set</string>
     <string name="custom_seekbar_default_value_is_set">Default value is set</string>
+	
+	<!-- Icon size -->
+    <string name="icon_size_title">Icon size</string>
 </resources>
