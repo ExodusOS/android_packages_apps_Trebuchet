@@ -33,6 +33,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="dev_options_title">Developer options</string>
     <string name="dev_options_desc">Enable some hidden features at your own risk</string>
 
+    <!-- Icon packs -->
+    <string name="icon_pack">Icon pack</string>
+
     <!-- DT2S -->
     <string name="pref_sleep_gesture_title">Double tap to sleep</string>
     <string name="pref_sleep_gesture_summary">Double tap on empty space for power-off</string>
